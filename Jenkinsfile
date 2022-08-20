@@ -5,6 +5,7 @@ pipeline {
         stage ('First Stage') {
             steps {
                 sh 'ls -laht'
+                sh 'cat Jenkinsfile'
             }
         }
         stage ('Second Stage') {
